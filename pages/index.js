@@ -9,10 +9,6 @@ export async function getServerSideProps(context) {
   }
 }
 
-export function reportWebVitals(metric) {
-    console.log(metric)
-}
-
 export default function Home({longList}) {
   return <h1>Test {longList.length}</h1>
 }
